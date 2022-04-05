@@ -1,0 +1,38 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+main {
+    background-color: #BCE8D3;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 10vw;
+    padding: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow:10px 10px 3px #B6C6BF;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;font-family: 'Satisfy', cursive;
+    font-size:150%;
+}
+
+.textbox {
+    box-sizing: content-box;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main nav {
+    margin-top: 5vh;
+    background-color: #90E964;
+    width: 40vw;
+    height: 8rem;
+
+}
