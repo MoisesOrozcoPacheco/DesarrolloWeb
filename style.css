@@ -33,6 +33,28 @@ main nav {
     margin-top: 5vh;
     background-color: #90E964;
     width: 40vw;
-    height: 8rem;
-
+    height: 25vh;
+    border-radius: 15px;
+    border-style: solid;
 }
+
+nav p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+form div{
+    padding-top: 20px;
+    text-align: center;
+}
+
+div button {
+    width: 30vw;
+    height: 4vh;
+
