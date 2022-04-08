@@ -1,3 +1,5 @@
+
+
 function consigueDatos()
 {
     const input_x2 = document.getElementById("x_cuadratica");
@@ -10,7 +12,7 @@ function consigueDatos()
     const x_0 = input_c.value;
 
     const res = resuelveEcuacion(x_2,x_1,x_0)
-    alert(res);
+  
     
 }
 
@@ -18,7 +20,10 @@ function resuelveEcuacion(x_2,x_1,x_0)
 {
     let res,aux,res1;
     aux = (x_1 * x_1) + 4 * x_2 * x_0;  
+    
     res = (-x_2 + Math.sqrt(aux))/(2 * x_2);
     res1 = (-x_2 - Math.sqrt(aux))/(2 * x_2);
+    const resultP = document.getElementById("resultadoP")
+    resultP.innerText = "x = " + res +"," + res1 ;
     return res,res1;
 }
